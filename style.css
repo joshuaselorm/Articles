@@ -1,0 +1,213 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Alegreya';
+    line-height: 18pt;
+    color: #a0a2a3; 
+}
+
+body{
+     
+     background-color: #F8F9FA;
+}
+header{
+    background-color: #343A40;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+header .logo{
+    display: flex;
+}
+
+
+.article-one{
+    height: 290px;
+    background-image: url(asparagus.jpg); 
+    text-align: center;
+    padding: 50px 10%;
+}
+.title-one{
+    font-size: 37px;
+    color: #fff;
+    margin: 5% 0px;
+}
+.para-one{
+    margin: auto;
+    width: 85%;
+    font-size: 20px;
+    line-height: 22pt;
+    color: white;
+}
+
+
+
+
+footer{ 
+    height: 80px;
+    background-color: white;
+    padding: 50px 12%;
+    
+}
+
+footer .foot-top{ 
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+/* Constants (K)*/
+.kheadSpacing{
+    margin: 15px;
+}
+.kblue{
+    background-color: #0069D9;
+}
+.kgray{
+    background-color: #5A6268;
+}
+.kbtn:hover{
+    text-decoration: none; 
+    opacity: 0.9;
+    color: white;
+}
+
+.kbtn{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.kmargin{
+    margin-top: 20px;
+}
+
+
+a{
+    color: #1E8AFF;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+    color: #106bce;
+}
+
+
+/*Item section*/
+section{
+    display: flex; 
+    flex-wrap: wrap;
+    padding: 10px auto;
+}
+
+.item{
+    background-color: white;
+    width: 30%;
+    min-width: 300px;
+    border: 1px solid  #55595C;
+    height: 400px;
+    margin: 20px 1%;
+}
+.thumbnail{
+    background: #55595C;
+    height: 50%;
+}
+.thumbnail p{
+    color: white;
+    font-size: 25px;
+    text-align: center; 
+    padding-top: 20%;
+}
+
+.content{
+    margin: 20px;
+}
+.content p{
+    color: black;
+}
+
+.buttons { 
+}
+.buttons a{
+    text-decoration: none;
+    border: 1px solid #55595C;
+    margin: -2px;
+    color: #55595C;
+    border-radius: 2px;
+    padding: 5px;
+}
+.buttons a:hover{
+    background: #55595C;
+    color: white;
+}
+
+.content-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+
+
+
+/*
+Item section 
+.middle{
+    display: flex; 
+    flex-wrap: wrap;
+    padding: 20px 10%;
+}
+
+.item{
+    background-color: white;
+    min-height: 400px;
+    width: 30%; 
+    min-width: 300px;
+    margin: 10px auto;
+}
+
+.thumbnail{
+    height: 250px;
+    background-color:#55595C ;
+}
+
+.center{
+    text-align: center;
+    margin: auto;
+    color: white;
+    padding-top: 35%;
+}
+
+.p-item{
+    margin: 20px;
+}
+
+.selector a{
+    color:#55595C;
+    padding: 6px 5px;
+    border: 1px solid #55595C;
+     border-radius: 2px;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+}
+
+.selector a:hover{
+    color: white;
+    text-decoration: none;
+     background-color: #55595C;
+}
+
+.s-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+*/
+

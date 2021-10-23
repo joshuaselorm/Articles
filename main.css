@@ -1,0 +1,177 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Alegreya';
+    line-height: 18pt;
+    color: #a0a2a3; 
+}
+
+body{
+     
+     background-color: #F8F9FA;
+}
+header{
+    background-color: #343A40;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+header .logo{
+    display: flex;
+}
+
+
+.article-one{
+    height: 290px;
+    background-color: white; 
+    background-image: url(alive.jpg);
+    text-align: center;
+    padding: 50px 10%;
+}
+.title-one{
+    font-size: 37px;
+    color: #343A40;
+    margin: 5% 0px;
+}
+.para-one{
+    margin: auto;
+    width: 85%;
+    font-size: 20px;
+    line-height: 22pt;
+    color: whitesmoke;
+    background-color: rgba(34, 48, 60, 0.4);
+    border-radius: 10px;
+}
+
+
+
+
+footer{ 
+    height: 80px;
+    background-color: white;
+    padding: 50px 12%;
+    
+}
+
+footer .foot-top{ 
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+/* Constants (K)*/
+.kheadSpacing{
+    margin: 15px;
+}
+.kblue{
+    background-color: #0069D9;
+}
+.kgray{
+    background-color: #5A6268;
+}
+.kbtn:hover{
+    text-decoration: none; 
+    opacity: 0.9;
+    color: white;
+}
+
+.kbtn{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.kmargin{
+    margin-top: 20px;
+}
+
+
+a{
+    color: #1E8AFF;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+    color: #106bce;
+}
+
+
+
+
+/*Item section */
+.middle{
+    display: flex; 
+    flex-wrap: wrap;
+    padding: 20px 10%; 
+}
+
+.item{
+    background-color: white;
+    min-height: 400px;
+    width: 30%; 
+    min-width: 300px;
+    margin: 10px auto;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px 1px;
+}
+
+.thumbnail{
+    height: 250px;
+    background-color:#55595C ;
+    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.center{
+    text-align: center;
+    margin: auto;
+    color: white;
+    padding-top: 35%;
+}
+
+.p-item{
+    margin: 20px;
+    
+    color: black;
+}
+
+.selector a{
+    color:#55595C;
+    padding: 6px 5px;
+    border: 1px solid #55595C;
+     border-radius: 2px;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+}
+
+.selector a:hover{
+    color: white;
+    text-decoration: none;
+     background-color: #55595C;
+}
+
+.s-item{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+
+@media only screen and (max-width: 600px){
+    
+    .middle{  
+    padding: 20px 4%;
+}
+.item{
+    width: 100%;  
+}
+
+}
